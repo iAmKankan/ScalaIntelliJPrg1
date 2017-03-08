@@ -1,3 +1,4 @@
+/*
 package OperatorOverloading
 
 /**
@@ -5,9 +6,9 @@ package OperatorOverloading
   */
 class Greater(xy:Int){
   def >(g:Greater): Boolean ={
-    if (this.xy > g.xy) return true
+   /* if (this.xy > g.xy) return true
    // else if (this.x == g.x) return true
-    else return false
+    else return false*/
   }
 }
 object GreateThan {
@@ -15,10 +16,11 @@ object GreateThan {
   {
    val a=new Greater(4)
    val b=new Greater(5)
-    print("the result "+a.>(b))
+   // print("the result "+a.>(b))
    // print("the result "+a<b)
    // print("the result "+a=b)
 
   }
 
 }
+*/
